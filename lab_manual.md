@@ -9,6 +9,8 @@
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 # Let's Get Started!
 
 ## 💫 Step 1. Access Tableau Cloud
@@ -19,6 +21,8 @@
 4. You should now be signed in to Tableau Cloud!
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 # ✍ Chapter 1: Build & Publish
 
@@ -41,6 +45,8 @@
 4. Select the "World Languages" datasource and click ‘Connect’.
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 ## 📝 Exercise 1.2 - Create Worksheets
 
@@ -67,18 +73,9 @@ Create "Native vs. Second Language" worksheet, which has a scatter plot with [Na
 6. Drag the field ‘Language’ in the Marks Card to ‘Label’.
 7. Right-click on 'Sheet 2' at the bottom and rename it to `Native vs. Second Language`.
 
-### **Step 3: Total Speakers by Language**
-
-Create "Total Speakers by Language" worksheet, which has a bar chart with [Native Speakers] by [Languages], and [Second Language Speakers] in Color.
-
-1. Click the 'New Worksheet' icon.
-2. Drag 'Total Speakers (millions)' to Columns.
-3. Drag 'Language' to Rows.
-4. Sort descending.
-5. Drag ‘Native Speakers (millions) to ‘Color’ on the Marks card.
-6. Rename the worksheet to `Total Speakers by Language`.
-
 ---
+
+<div style="page-break-after: always;"></div>
 
 ## 📝 Exercise 1.3 - Create and Publish Dashboard
 
@@ -115,6 +112,4 @@ Throughout this session, you've embarked on a journey to harness the power of Ta
 
 As you wrap up, remember that Tableau Cloud offers a dynamic platform for data exploration, visualization, collaboration, and administration. Whether you're a data analyst, business user, or administrator, Tableau Cloud equips you with the tools to transform data into actionable insights.
 
-Continue to explore the rich resources available to you, including the links provided in this manual, to deepen your understanding and proficiency with Tableau Cloud. Keep innovating, experimenting, and discovering new ways to leverage data to drive informed decision-making and propel your organization forward.
-
-Thank you for your participation, and we look forward to seeing your continued success with Tableau Cloud!
+Continue to explore the rich resources available to you,
