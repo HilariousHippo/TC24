@@ -7,7 +7,7 @@ markdown_sections = {
     "🔑 Your Tableau Cloud Credentials": """
         Your user name is **@lab.CloudCredential(TC24HoT1797).Username**.
         Your password is **@lab.CloudCredential(TC24HoT1797).Password**.
-        This credentials are assign to only you. Please don’t share this with anyone else.
+        This credentials are assign to only you. Please do not share this with anyone else.
         """,
     "Let's get it started!": """
         ### 💫 Step 1. Access Tableau Cloud
