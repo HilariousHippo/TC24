@@ -2,8 +2,6 @@ import streamlit as st
 
 # Define markdown content for each section
 markdown_sections = {
-    "Welcome": """
-    # Welcome to your Lab Manual!
     "🔑 Your Tableau Cloud Credentials": """
         Your user name is **@lab.CloudCredential(TC24HoT1797).Username**.
         Your password is **@lab.CloudCredential(TC24HoT1797).Password**.
@@ -20,8 +18,8 @@ markdown_sections = {
         ### 💡 Key Points
         - In this chapter, you will create a workbook using the existing published data source.
         - You will experience how to create Tableau{{SINGLE_QUOTE}}s dashboard.
-        - By publishing your workbook to Tableau Cloud, your content will be available to anyone who has the right permissions.,
-        
+        - By publishing your workbook to Tableau Cloud, your content will be available to anyone who has the right permissions.
+        """,
     # Add more sections here with replaced single quotes
 }
 
