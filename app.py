@@ -21,7 +21,7 @@ markdown_sections = {
         - In this chapter, you will create a workbook using the existing published data source.
         - You will experience how to create Tableau{{SINGLE_QUOTE}}s dashboard.
         - By publishing your workbook to Tableau Cloud, your content will be available to anyone who has the right permissions.
-        """
+        
     # Add more sections here with replaced single quotes
 }
 
