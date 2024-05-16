@@ -1,12 +1,17 @@
 import streamlit as st
+import markdown
+
+def render_markdown_file(markdown_file):
+    with open(markdown_file, "r", encoding="utf-8") as file:
+        markdown_text = file.read()
+        # Render the markdown content
+        return st.markdown(markdown_text, unsafe_allow_html=True)
 
 def main():
     st.title("Welcome to your Lab Manual!")
-    
-    # Load and render your markdown file
-    with open("lab_manual.md", "r", encoding="utf-8") as file:
-        markdown_text = file.read()
-        st.markdown(markdown_text, unsafe_allow_html=True)
+    # Path to your modified markdown file
+    markdown_file = "lab_manual.md"
+    render_markdown_file(markdown_file)
 
 if __name__ == "__main__":
     main()
